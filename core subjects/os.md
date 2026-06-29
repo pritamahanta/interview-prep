@@ -1,6 +1,3 @@
-Here is a structured, clean, and straightforward `README.md` file you can use for your repository. The content has been categorized by topic, the C++ code blocks have been properly formatted, and direct comparisons have been put into tables for better readability.
-
----
 
 # Operating Systems: Core Interview Concepts
 
