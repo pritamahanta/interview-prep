@@ -1,4 +1,4 @@
-# Operating Systems Interview Problems and Solutions
+# Operating Systems Interview Questions and Answers
 
 ### 1. What is the difference between kernel and shell in an operating system?
 
