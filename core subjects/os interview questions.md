@@ -22,7 +22,7 @@ It's a memory management technique that uses a combination of physical RAM and d
 
 
 <p align="center">
-  <img src="assets/os/virtual_memory.webp" alt="Virtual Memory Image" width="700">
+  <img src="assets/os/virtual_memory.webp" alt="Virtual Memory Image" width="700" height="400">
 </p>
 
 
