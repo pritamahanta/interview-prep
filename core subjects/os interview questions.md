@@ -20,6 +20,12 @@ It's a memory management technique that uses a combination of physical RAM and d
 * **Page Faults:** When a process accesses data in its virtual address space, and it's not in physical RAM, a page fault occurs. This triggers the OS to load the required page from disk into RAM (if available).
 * **Swap Space:** If RAM is full, the OS may move less frequently used pages to disk (swap space) to free up RAM for more critical data.
 
+
+<p align="center">
+  <img src="assets/os/virtual_memory.webp" alt="Virtual Memory Image" width="700">
+</p>
+
+
 It's worth noting that the use of virtual memory introduces additional overhead due to the need for page table lookups and the potential for page faults, which can lead to performance impacts if excessive paging occurs. Therefore, optimizing the management of virtual memory is an important aspect of operating system design.
 
 ---
