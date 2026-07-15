@@ -149,6 +149,11 @@ In an operating system, page faults are typically handled through a process call
 6. **Retry Instruction:** The interrupted instruction is re-executed, and this time, it successfully accesses the required memory.
 7. **Resume Process:** The process continues executing as if the page fault never occurred.
 
+
+<p align="center">
+  <img src="assets/os/page_fault.png" alt="Page Fault Image" width="700" height="400">
+</p>
+
 Handling page faults efficiently is crucial for system performance. Various optimization techniques like demand paging and page replacement algorithms (e.g., LRU, FIFO) are used to minimize the impact of page faults.
 
 ---
