@@ -117,12 +117,13 @@ Semaphores help prevent race conditions and ensure that critical sections of cod
 
 ### 6. What is a context switch in an operating system?
 
-<p align="center">
-  <img src="assets/os/context_switching.webp" alt="Context Switching Image" width="400">
-</p>
 
 
 A context switch in an operating system is the process of saving the current state of a running process, such as its registers and program counter, and then loading the saved state of another process so that it can run. This switch allows the operating system to efficiently manage multiple processes or threads, giving the illusion of concurrent execution on a single CPU. Context switches are essential for multitasking and ensuring that each process gets its fair share of CPU time.
+
+<p align="center">
+  <img src="assets/os/context_switching.webp" alt="Context Switching Image" width="700">
+</p>
 
 Context switches can occur in various situations, including when a process voluntarily yields the CPU, when a higher-priority process becomes ready to run, when an interrupt occurs (such as a hardware interrupt or a timer interrupt), or when the operating system's scheduler decides to preempt the currently running process or thread. However context switches incur overhead in terms of time and system resources.
 
